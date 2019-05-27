@@ -1,0 +1,25 @@
+version: '2'
+services:
+  rabbitmq1:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    hostname: rabbitmq-local
+    ports:
+      - "8080:15672"
+    environment:
+     - RABBITMQ_DEFAULT_USER=testes
+     - RABBITMQ_DEFAULT_PASS=Testes2018!
+  db:
+    build: .
+    image: couchbase
+    container_name: couchbase
+    ports:
+      - 8091:8091
+      - 8092:8092
+      - 8093:8093
+      - 8094:8094
+      - 11210:11210
+    environment:
+      - CB_ADMIN_USER=Administrator
+      - CB_ADMIN_PWD=admin124
+      - CB_BUCKET=my_bucket

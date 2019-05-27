@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirGoes.ViajaNet.Services.API", "SamirGoes.ViajaNet.Services.API\SamirGoes.ViajaNet.Services.API.csproj", "{D513E14C-680A-47C9-AA60-21F3C0390139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirGoes.ViajaNet.Domain", "SamirGoes.ViajaNet.Domain\SamirGoes.ViajaNet.Domain.csproj", "{D060F7CC-FEBF-46A4-AEB6-6FA9F17B3B23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirGoes.Viajanet.Application", "SamirGoes.Viajanet.Application\SamirGoes.Viajanet.Application.csproj", "{19E1664C-D3EA-4B8A-B920-61F68C4F5B2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{FC4E0A09-3E7E-4119-9908-9B6C9AF94C1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{D8404AFF-E3EF-4504-BA2F-55B8BFDE25F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{CA47D180-3612-4F09-9051-7430ACABFA59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{6F8E8932-84BF-414C-9966-3CAAF4C8099E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{61871402-14C7-4CB5-B82B-1086C1C059D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{B9081BB5-6CFD-48C9-BBBB-B9DA63F7CB67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{B365DE0F-35A3-4612-8801-1E8CE5E4B88E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1.1 - DataBase", "5.1.1 - DataBase", "{88809D35-297F-4493-B09E-BD0BD4B29F68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1.2 - Queue", "5.1.2 - Queue", "{ED251542-B64F-4862-A247-B9FD0263D436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirGoes.ViajaNet.Data.Queue", "SamirGoes.ViajaNet.Data.Queue\SamirGoes.ViajaNet.Data.Queue.csproj", "{7450FFF0-3AB5-414B-9F85-A59B11E13873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D513E14C-680A-47C9-AA60-21F3C0390139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D513E14C-680A-47C9-AA60-21F3C0390139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D513E14C-680A-47C9-AA60-21F3C0390139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D513E14C-680A-47C9-AA60-21F3C0390139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D060F7CC-FEBF-46A4-AEB6-6FA9F17B3B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D060F7CC-FEBF-46A4-AEB6-6FA9F17B3B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D060F7CC-FEBF-46A4-AEB6-6FA9F17B3B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D060F7CC-FEBF-46A4-AEB6-6FA9F17B3B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E1664C-D3EA-4B8A-B920-61F68C4F5B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E1664C-D3EA-4B8A-B920-61F68C4F5B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E1664C-D3EA-4B8A-B920-61F68C4F5B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E1664C-D3EA-4B8A-B920-61F68C4F5B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7450FFF0-3AB5-414B-9F85-A59B11E13873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7450FFF0-3AB5-414B-9F85-A59B11E13873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7450FFF0-3AB5-414B-9F85-A59B11E13873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7450FFF0-3AB5-414B-9F85-A59B11E13873}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D513E14C-680A-47C9-AA60-21F3C0390139} = {D8404AFF-E3EF-4504-BA2F-55B8BFDE25F0}
+		{D060F7CC-FEBF-46A4-AEB6-6FA9F17B3B23} = {6F8E8932-84BF-414C-9966-3CAAF4C8099E}
+		{19E1664C-D3EA-4B8A-B920-61F68C4F5B2C} = {CA47D180-3612-4F09-9051-7430ACABFA59}
+		{B9081BB5-6CFD-48C9-BBBB-B9DA63F7CB67} = {61871402-14C7-4CB5-B82B-1086C1C059D2}
+		{B365DE0F-35A3-4612-8801-1E8CE5E4B88E} = {61871402-14C7-4CB5-B82B-1086C1C059D2}
+		{88809D35-297F-4493-B09E-BD0BD4B29F68} = {B9081BB5-6CFD-48C9-BBBB-B9DA63F7CB67}
+		{ED251542-B64F-4862-A247-B9FD0263D436} = {B9081BB5-6CFD-48C9-BBBB-B9DA63F7CB67}
+		{7450FFF0-3AB5-414B-9F85-A59B11E13873} = {ED251542-B64F-4862-A247-B9FD0263D436}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4CCF092-C6DF-4E0F-8F33-E217B1439947}
+	EndGlobalSection
+EndGlobal
