@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SamirGoes.Viajanet.Domain.Core\SamirGoes.Viajanet.Domain.Core.csproj" />
     <ProjectReference Include="..\SamirGoes.ViajaNet.Domain\SamirGoes.ViajaNet.Domain.csproj" />
   </ItemGroup>
 

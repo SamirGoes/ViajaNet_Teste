@@ -6,29 +6,30 @@ using System.Text;
 using System.IO;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
+using SamirGoes.Viajanet.Domain.Core.Bus;
 
-namespace SamirGoes.ViajaNet.Data.Queue.RabbitMQ
+namespace SamirGoes.ViajaNet.Infra.ServiceBus.ServiceBus
 {
-    public class Connection
+    public class ConnectionBus : IConnectionBus
     {
-        private static IConfiguration _configuration;
+        private IConfiguration _configuration;
 
-        private static Configurations _rabbitMQConfigurations;
+        private Configuration _rabbitMQConfigurations;
 
-        public Connection()
+        public ConnectionBus()
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile($"appsettings.json");
             _configuration = builder.Build();
 
-             _rabbitMQConfigurations = new Configurations();
-            new ConfigureFromConfigurationOptions<Configurations>(
+            _rabbitMQConfigurations = new Configuration();
+            new ConfigureFromConfigurationOptions<Configuration>(
                 _configuration.GetSection("Configurations"))
                     .Configure(_rabbitMQConfigurations);
         }
 
-        public static ConnectionFactory GetConnection()
+        public ConnectionFactory GetConnection()
         {
             return new ConnectionFactory()
             {

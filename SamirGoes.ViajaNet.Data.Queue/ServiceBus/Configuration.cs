@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SamirGoes.ViajaNet.Data.Queue.RabbitMQ
+namespace SamirGoes.ViajaNet.Infra.ServiceBus.ServiceBus
 {
-    public class Configurations
+    public class Configuration
     {
         public string HostName { get; set; }
         public int Port { get; set; }
